@@ -1,0 +1,27 @@
+{
+  "name": "iflix_SoftwareEngineer_Test_MY",
+  "version": "1.0.0",
+  "description": "Welcome to the iflix Coding Assignment! We can't wait to see what you come up with!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtiaz-em,u/iflix_assignment.git"
+  },
+  "keywords": [],
+  "author": "Imtiaz Hossain Emu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imtiaz-emu/iflix_assignment/issues"
+  },
+  "homepage": "https://github.com/imtiaz-emu/iflix_assignment#readme",
+  "devDependencies": {
+    "moment": "^2.24.0"
+  }
+}
