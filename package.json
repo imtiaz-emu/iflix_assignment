@@ -2,13 +2,14 @@
   "name": "iflix_SoftwareEngineer_Test_MY",
   "version": "1.0.0",
   "description": "Welcome to the iflix Coding Assignment! We can't wait to see what you come up with!",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/index.js",
+    "test": "mocha test/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   },
   "homepage": "https://github.com/imtiaz-emu/iflix_assignment#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
     "moment": "^2.24.0"
   }
 }
